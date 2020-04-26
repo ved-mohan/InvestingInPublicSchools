@@ -108,14 +108,13 @@ Model Performance:
 
 We see that for coefficient indices Per Pupil Instructional Spending, Instructional Staff, PP&E the magnitudes are considerably less when compared to linear regression. Similarly indices Instructional Spending, Per Pupil Support Systems Spending, General Admin are considerably less than linear regression
 
+Since these four variables seem extremely impacted over multiple iterations, they were carried forward for further analysis. 
 
+Before unsupervised clustering techniques were applied to explore patterns between the states, simple graph clusters were made to gain some understanding of what to expect.
 
-
-To explore whether further investigation was required, the highest correlated factors were clustered by Overall Score Averages. Interestingly there was a strong linear correspondance, however, no clear clustering pattern emerged. 
-
-INSERT IMAGE OF 
 
 #### Unsupervised
+**Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
 
 
 ![Image 6](project6.PNG)
