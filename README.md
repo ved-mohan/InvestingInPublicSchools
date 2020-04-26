@@ -15,8 +15,9 @@ This project will use standardized testing data from the NAEP (National Assessme
 
 ### Data
 Two different sources of data will be used. We are using financial data from census.gov, and test score data from NAEP testing (a standardized nationwide test).
-https://nces.ed.gov/nationsreportcard/
-https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
+
+* https://nces.ed.gov/nationsreportcard/
+* https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
 #### Characteristics
 1. Test scores are available biyearly in each state from 2007 to 2017.
 2. Tests were given to 4th and 8th graders in Math and Reading and the average score by state is used.
