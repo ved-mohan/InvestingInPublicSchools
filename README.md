@@ -117,10 +117,10 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
 
 
-![Image IS](IS.PNG)
-![Image PP&E](PP&E.PNG)
-![Image PPIS](PPIS.PNG)
-![Image PPSS](PPSS.PNG)
+![Image IS](IS.png)
+![Image PP&E](PP&E.png)
+![Image PPIS](PPIS.png)
+![Image PPSS](PPSS.png)
 
 
 
