@@ -4,11 +4,11 @@
 ### Introduction
 Education is a pillar of society that factors into decisions with a variety of scopes with both short term and long term implications. A strong public education system has resounding implications ranging from which district families chose to settle in, adjacent property valuations, and larger more abstract relationships such as the financial growth of countries in the long run.
 
-##### Motivation
+### Motivation
 Given a limited amount of funding each year, state and federal administrations are tasked with investing in various aspects of public education in order to improve the overall quality of learning.
 Our goal was to create a tool which demonstrates which areas to target spending and investments in order to receive the highest return on education quality.
 
-#### Problem Statement
+### Problem Statement
 **X dollars invested in Y area will result in an average increase in educational performance by Z.**
 
 ### Data
