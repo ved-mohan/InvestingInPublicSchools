@@ -40,10 +40,11 @@ Two different sources of data will be used. We are using financial data from cen
 ![Image 1](project1.PNG)"
 ### Our Approach
 We intend to perform a linear regression on aspects of each school system’s financing as well as the past year’s test scores against the current test scores to give an overall predictive formula for the change in a school’s performance based on differences in a state’s financial plan.
+![Image 2](project2.PNG)"
 #### Supervised
 #### Unsupervised
 ### Supervised
-![Image 2](project2.PNG)"
+
 ![Image 3](project3.PNG)"
 ![Image 4](project4.PNG)"
 ![Image 5](project5.PNG)"
