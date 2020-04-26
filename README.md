@@ -18,6 +18,8 @@ Two different sources of data will be used. We are using financial data from cen
 
 * https://nces.ed.gov/nationsreportcard/
 * https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
+
+
 #### Characteristics
 1. Test scores are available biyearly in each state from 2007 to 2017.
 2. Tests were given to 4th and 8th graders in Math and Reading and the average score by state is used.
