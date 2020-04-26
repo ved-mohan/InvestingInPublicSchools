@@ -2,31 +2,36 @@
 ## Chase Yarbrough, Jinyoung Eum, Ved Mohan
 
 ### Introduction
+Education is a pillar of society that factors into decisions with a variety of scopes with both short term and long term implications. A strong public education system has resounding implications ranging from which district families chose to settle in, adjacent property valuations, and larger more abstract relationships such as the financial growth of countries in the long run.
 
 #### Motivation
 Given a limited amount of funding each year, state and federal administrations are tasked with investing in various aspects of public education in order to improve the overall quality of learning.
 Our goal was to create a tool which demonstrates which areas to target spending and investments in order to receive the highest return on education quality.
+
 #### Problem Statement
 X dollars invested in Y area will result in an average increase in educational performance by Z.
-#### Significance
-Education is a pillar of society that factors into decisions with a variety of scopes with both short term and long term implications. A strong public education system has resounding implications ranging from which district families chose to settle in, adjacent property valuations, and larger more abstract relationships such as the financial growth of countries in the long run.
-
-This project will use standardized testing data from the NAEP (National Assessment of Educational Progress) as a metric to gauge the change in education quality. The intent is to find insights such as which areas to target investments in order to receive the highest return on education quality.
 
 ### Data
-Two different sources of data will be used. We are using financial data from census.gov, and test score data from NAEP testing (a standardized nationwide test).
+Two different sources of data were used, testing data and financial data
 
-* https://nces.ed.gov/nationsreportcard/
-* https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
+#### Test Data
+Test score data from  National Assessment of Educational Progress (NAEP testing). NAEP has been selected as it is a standardized test administered at two grade levels, 4th grade and 8th grade. There are two different scores, measuring Math and English performance.
 
-
-#### Characteristics
+Some characteristics of this data:
 1. Test scores are available biyearly in each state from 2007 to 2017.
 2. Tests were given to 4th and 8th graders in Math and Reading and the average score by state is used.
 3. For 8th graders the average math test score is 282 and the average reading test score is 265.
 4. For 4th graders the average math test score is 240 and the average reading test score is 221.
-5. Financial Data is given each year by state from 2008 to 2017.
-6. Financial Data further breaks spending into Instruction and Support Services and then into smaller categories such as:
+
+
+
+To see the complete dataset source: 
+* https://nces.ed.gov/nationsreportcard/
+
+
+#### Financial Data
+Financial data was sourced from the United States Census. Data between 2008 and 2017 tracked individual areas of investment on a state by state basis. The categories were as follows:
+
 * Salaries and Wages
 * Employee Benefits
 * Pupil Support Services
@@ -37,6 +42,11 @@ Two different sources of data will be used. We are using financial data from cen
 * Pupil Transportation
 * Other
 
+ENTER SNAPSHOT OF DATA HERE
+
+To see the complete dataset source: 
+* https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
+
 
 #### Dividing Further into the Dataset
 ![Image 1](project1.PNG)"
@@ -46,6 +56,8 @@ Two different sources of data will be used. We are using financial data from cen
 We intend to perform a linear regression on aspects of each school system’s financing as well as the past year’s test scores against the current test scores to give an overall predictive formula for the change in a school’s performance based on differences in a state’s financial plan.
 ![Image 2](project2.PNG)"
 
+#### Procedure
+A preliminary check was done using a Pearson Correlation test
 
 #### Supervised
 
