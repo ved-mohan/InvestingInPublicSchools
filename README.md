@@ -1,5 +1,5 @@
 # Return on Financial Investment in American Public School Systems
-##### Chase Yarbrough, Jinyoung Eum, Ved Mohan
+##### Chase Yarbrough, Jinyoung Eum, and Ved Mohan
 
 ### Introduction
 Education is a pillar of society that factors into decisions with a variety of scopes with both short term and long term implications. A strong public education system has resounding implications ranging from which district families chose to settle in, adjacent property valuations, and larger more abstract relationships such as the financial growth of countries in the long run.
@@ -8,7 +8,7 @@ Education is a pillar of society that factors into decisions with a variety of s
 Given a limited amount of funding each year, state and federal administrations are tasked with investing in various aspects of public education in order to improve the overall quality of learning.
 Our goal was to create a tool which demonstrates which areas to target spending and investments in order to receive the highest return on education quality.
 
-##### Problem Statement
+#### Problem Statement
 **X dollars invested in Y area will result in an average increase in educational performance by Z.**
 
 ### Data
@@ -24,8 +24,7 @@ Some characteristics of this data:
 4. For 4th graders the average math test score is 240 and the average reading test score is 221.
 
 
-Dataset source: 
-* https://nces.ed.gov/nationsreportcard/
+[Dataset source](https://nces.ed.gov/nationsreportcard/)
 
 
 ##### Financial Data
@@ -43,8 +42,7 @@ Financial data was sourced from the United States Census. Data between 2008 and 
 
 ENTER SNAPSHOT OF DATA HERE
 
-Dataset source: 
-* https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
+[Dataset source](https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html)
 
 
 #### Dividing Further into the Dataset
@@ -92,7 +90,6 @@ It is apparent that when all areas of investment are considered together the fol
 
 These factors represent the two strongest correlations in the positive and negative directions. 
 **Ridge regression** shrinks the coefficients, reducing the model complexity and multi-collinearity. This allows us to cross check influential factors with Multiple Regression
-
 
 
 To explore whether further investigation was required, the highest correlated factors were clustered by Overall Score Averages. Interestingly there was a strong linear correspondance, however, no clear clustering pattern emerged. 
