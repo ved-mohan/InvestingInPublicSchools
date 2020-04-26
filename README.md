@@ -56,9 +56,11 @@ Score average is slightly skewed, but loosely follows a gaussian distribution. T
 
 ### Procedure
 We intend to perform a linear regression on aspects of each school system’s financing as well as the past year’s test scores against the current test scores to give an overall predictive formula for the change in a school’s performance based on differences in a state’s financial plan.
+
 ![Image 2](project2.PNG)
 
 A preliminary check was done using a **Pearson Correlation** test. This checked the individual correlations between All Financial Investment Areas and Overall Score Average
+
 ![Image 3](project3.PNG)
 
 Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reasonable: increasing spending per capita would positively affect performance. However, Pearson Correlation does not account for the impact of the variables combined. 
@@ -88,10 +90,8 @@ It is apparent that when all areas of investment are considered together the fol
 * Instructional Spending **(-0.411845)
 * Per Pupil Support System Spending **(-0.226041)
 
-These factors represent the two strongest correlations in the positive and negative directions.
-
-
-Looking Forward: Ridge regression to cross reference most influential coefficients 
+These factors represent the two strongest correlations in the positive and negative directions. 
+**Ridge regression** shrinks the coefficients, reducing the model complexity and multi-collinearity. This allows us to cross check influential factors with Multiple Regression
 
 
 
@@ -99,24 +99,17 @@ To explore whether further investigation was required, the highest correlated fa
 
 INSERT IMAGE OF 
 
-The
-
 #### Unsupervised
 
 
-### Supervised
-
-
-
-
-![Image 6](project6.PNG)"
-![Image 7](project7.PNG)"
+![Image 6](project6.PNG)
+![Image 7](project7.PNG)
 
 ### Unsupervised
-![Image 8](Screen Shot 2020-04-08 at 11.24.17 PM.png)"
-![Image 9](Screen Shot 2020-04-08 at 6.38.24 PM (1).png)"
-![Image 10](Screen Shot 2020-04-08 at 6.38.41 PM (1).png)"
-![Image 11](Screen Shot 2020-04-08 at 6.40.01 PM (1).png)"
+![Image 8](Screen Shot 2020-04-08 at 11.24.17 PM.png)
+![Image 9](Screen Shot 2020-04-08 at 6.38.24 PM (1).png)
+![Image 10](Screen Shot 2020-04-08 at 6.38.41 PM (1).png)
+![Image 11](Screen Shot 2020-04-08 at 6.40.01 PM (1).png)
 
 
 ### Conclusion
