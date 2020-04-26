@@ -47,6 +47,8 @@ Below is a snapshot of both financial data and test data compiled into a singula
 
 ![Dataset](DF.png)
 
+Each row corresponds to a state and a year between 2007 and 2017. The shape of the the dataframe is (250, 15).
+
 #### Dividing Further into the Dataset
 Plotting Overall Score Average over the Years 2007-2017
 
