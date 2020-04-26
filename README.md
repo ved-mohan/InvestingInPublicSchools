@@ -40,10 +40,12 @@ Financial data was sourced from the United States Census. Data between 2008 and 
 * Pupil Transportation
 * Other
 
-ENTER SNAPSHOT OF DATA HERE
 
 [Dataset source](https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html)
 
+Below is a snapshot of both financial data and test data compiled into a singular dataframe
+
+![Dataset](DF.png)
 
 #### Dividing Further into the Dataset
 Plotting Overall Score Average over the Years 2007-2017
