@@ -1,20 +1,20 @@
 # Return on Financial Investment in American Public School Systems
-## Chase Yarbrough, Jinyoung Eum, Ved Mohan
+##### Chase Yarbrough, Jinyoung Eum, Ved Mohan
 
 ### Introduction
 Education is a pillar of society that factors into decisions with a variety of scopes with both short term and long term implications. A strong public education system has resounding implications ranging from which district families chose to settle in, adjacent property valuations, and larger more abstract relationships such as the financial growth of countries in the long run.
 
-#### Motivation
+##### Motivation
 Given a limited amount of funding each year, state and federal administrations are tasked with investing in various aspects of public education in order to improve the overall quality of learning.
 Our goal was to create a tool which demonstrates which areas to target spending and investments in order to receive the highest return on education quality.
 
-#### Problem Statement
+##### Problem Statement
 X dollars invested in Y area will result in an average increase in educational performance by Z.
 
 ### Data
 Two different sources of data were used, testing data and financial data
 
-#### Test Data
+##### Test Data
 Test score data from  National Assessment of Educational Progress (NAEP testing). NAEP has been selected as it is a standardized test administered at two grade levels, 4th grade and 8th grade. There are two different scores, measuring Math and English performance.
 
 Some characteristics of this data:
@@ -29,7 +29,7 @@ To see the complete dataset source:
 * https://nces.ed.gov/nationsreportcard/
 
 
-#### Financial Data
+##### Financial Data
 Financial data was sourced from the United States Census. Data between 2008 and 2017 tracked individual areas of investment on a state by state basis. The categories were as follows:
 
 * Salaries and Wages
@@ -49,25 +49,33 @@ To see the complete dataset source:
 
 
 #### Dividing Further into the Dataset
+Plotting Overall Score Average over the Years 2007-2017
+
 ![Image 1](project1.PNG)"
 
+Score average is slightly skewed, but loosely follows a gaussian distribution. This allowed us to continue without applying a normalization transformation such as Box-Cox. However, due to the order of magnitude difference between factors, columns were normalized relative to themselves.
 
-### Our Approach
+### Procedure
 We intend to perform a linear regression on aspects of each school system’s financing as well as the past year’s test scores against the current test scores to give an overall predictive formula for the change in a school’s performance based on differences in a state’s financial plan.
 ![Image 2](project2.PNG)"
 
-#### Procedure
-A preliminary check was done using a Pearson Correlation test
+A preliminary check was done using a Pearson Correlation test. This checked the individual correlations between All Financial Investment Areas and Overall Score Average
+![Image 3](project3.PNG)"
+
+Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reasonable: increasing spending per capita would positively affect performance. However, Pearson Correlation does not account for the impact of the variables combined. To explore whether further investigation was required, the highest correlated factors (
 
 #### Supervised
 
+In order to build on the preliminary exploration, a multiple regression model was created. Test and training data were split 20:80 respectively. 
+
+Model Performance 
 
 #### Unsupervised
 
 
 ### Supervised
 
-![Image 3](project3.PNG)"
+
 ![Image 4](project4.PNG)"
 ![Image 5](project5.PNG)"
 ![Image 6](project6.PNG)"
