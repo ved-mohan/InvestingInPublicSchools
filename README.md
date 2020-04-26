@@ -24,8 +24,7 @@ Some characteristics of this data:
 4. For 4th graders the average math test score is 240 and the average reading test score is 221.
 
 
-
-To see the complete dataset source: 
+Dataset source: 
 * https://nces.ed.gov/nationsreportcard/
 
 
@@ -44,7 +43,7 @@ Financial data was sourced from the United States Census. Data between 2008 and 
 
 ENTER SNAPSHOT OF DATA HERE
 
-To see the complete dataset source: 
+Dataset source: 
 * https://www.census.gov/data/tables/2008/econ/school-finances/secondary-education-finance.html
 
 
@@ -62,13 +61,34 @@ We intend to perform a linear regression on aspects of each school system’s fi
 A preliminary check was done using a Pearson Correlation test. This checked the individual correlations between All Financial Investment Areas and Overall Score Average
 ![Image 3](project3.PNG)"
 
-Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reasonable: increasing spending per capita would positively affect performance. However, Pearson Correlation does not account for the impact of the variables combined. To explore whether further investigation was required, the highest correlated factors (
+Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reasonable: increasing spending per capita would positively affect performance. However, Pearson Correlation does not account for the impact of the variables combined. 
 
 #### Supervised
 
 In order to build on the preliminary exploration, a multiple regression model was created. Test and training data were split 20:80 respectively. 
 
-Model Performance 
+Model Performance:
+
+* Mean Absolute Error: 0.0151
+* Mean Squared Error: 0.0003
+* Root Mean Squared Error: 0.0176
+
+![Image 4](project4.PNG)"
+
+A sampling of the model performance (blue) versus actual data (orange)
+
+A summary of the coefficients returned:
+
+![Image 5](project5.PNG)"
+
+
+
+
+To explore whether further investigation was required, the highest correlated factors were clustered by Overall Score Averages. Interestingly there was a strong linear correspondance, however, no clear clustering pattern emerged. 
+
+INSERT IMAGE OF 
+
+The
 
 #### Unsupervised
 
@@ -76,8 +96,8 @@ Model Performance
 ### Supervised
 
 
-![Image 4](project4.PNG)"
-![Image 5](project5.PNG)"
+
+
 ![Image 6](project6.PNG)"
 ![Image 7](project7.PNG)"
 
