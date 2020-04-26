@@ -68,4 +68,4 @@ We intend to perform a linear regression on aspects of each school system’s fi
 ![Image 11](Screen Shot 2020-04-08 at 6.40.01 PM (1).png)"
 
 
-
+### Conclusion
