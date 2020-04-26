@@ -91,6 +91,21 @@ It is apparent that when all areas of investment are considered together the fol
 These factors represent the two strongest correlations in the positive and negative directions. 
 **Ridge regression** shrinks the coefficients, reducing the model complexity and multi-collinearity. This allows us to cross check influential factors with Multiple Regression
 
+Ridge Regression was performed at two alpha levels, where a higher α value typically corresponds to more restriction on the coefficients and a low α corresponds to more generalization.
+
+Model Performance:
+* Ridge Regression Train Score w/ low alpha: .46036
+* Ridge Regression Test Score w/ high alpha: .11272
+* Ridge Regression Train Score w/ low alpha: .02249
+* Ridge Regression Test Score w/ lhigh alpha: .01770
+
+
+![Image 7](project7.PNG)
+
+We see that for coefficient indices Per Pupil Instructional Spending, Instructional Staff, PP&E the magnitudes are considerably less when compared to linear regression. Similarly indices Instructional Spending, Per Pupil Support Systems Spending, General Admin are considerably less than linear regression
+
+
+
 
 To explore whether further investigation was required, the highest correlated factors were clustered by Overall Score Averages. Interestingly there was a strong linear correspondance, however, no clear clustering pattern emerged. 
 
@@ -100,7 +115,7 @@ INSERT IMAGE OF
 
 
 ![Image 6](project6.PNG)
-![Image 7](project7.PNG)
+
 
 ### Unsupervised
 ![Image 8](Screen Shot 2020-04-08 at 11.24.17 PM.png)
