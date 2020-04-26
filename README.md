@@ -9,7 +9,7 @@ Given a limited amount of funding each year, state and federal administrations a
 Our goal was to create a tool which demonstrates which areas to target spending and investments in order to receive the highest return on education quality.
 
 ##### Problem Statement
-X dollars invested in Y area will result in an average increase in educational performance by Z.
+**X dollars invested in Y area will result in an average increase in educational performance by Z.**
 
 ### Data
 Two different sources of data were used, testing data and financial data
@@ -50,22 +50,22 @@ Dataset source:
 #### Dividing Further into the Dataset
 Plotting Overall Score Average over the Years 2007-2017
 
-![Image 1](project1.PNG)"
+![Image 1](project1.PNG)
 
 Score average is slightly skewed, but loosely follows a gaussian distribution. This allowed us to continue without applying a normalization transformation such as Box-Cox. However, due to the order of magnitude difference between factors, columns were normalized relative to themselves.
 
 ### Procedure
 We intend to perform a linear regression on aspects of each school system’s financing as well as the past year’s test scores against the current test scores to give an overall predictive formula for the change in a school’s performance based on differences in a state’s financial plan.
-![Image 2](project2.PNG)"
+![Image 2](project2.PNG)
 
-A preliminary check was done using a Pearson Correlation test. This checked the individual correlations between All Financial Investment Areas and Overall Score Average
-![Image 3](project3.PNG)"
+A preliminary check was done using a **Pearson Correlation** test. This checked the individual correlations between All Financial Investment Areas and Overall Score Average
+![Image 3](project3.PNG)
 
 Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reasonable: increasing spending per capita would positively affect performance. However, Pearson Correlation does not account for the impact of the variables combined. 
 
 #### Supervised
 
-In order to build on the preliminary exploration, a multiple regression model was created. Test and training data were split 20:80 respectively. 
+In order to build on the preliminary exploration, a **Multiple Regression model** was created. Test and training data were split 20:80 respectively. 
 
 Model Performance:
 
@@ -73,14 +73,25 @@ Model Performance:
 * Mean Squared Error: 0.0003
 * Root Mean Squared Error: 0.0176
 
-![Image 4](project4.PNG)"
+![Image 4](project4.PNG)
 
 A sampling of the model performance (blue) versus actual data (orange)
 
 A summary of the coefficients returned:
 
-![Image 5](project5.PNG)"
+![Image 5](project5.PNG)
 
+It is apparent that when all areas of investment are considered together the following were most influential:
+
+* Per Pupil Instructional Spending **(+0.364695)
+* PP&E **(+0.194763)
+* Instructional Spending **(-0.411845)
+* Per Pupil Support System Spending **(-0.226041)
+
+These factors represent the two strongest correlations in the positive and negative directions.
+
+
+Looking Forward: Ridge regression to cross reference most influential coefficients 
 
 
 
