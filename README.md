@@ -11,6 +11,7 @@ X dollars invested in Y area will result in an average increase in educational p
 
 ### Data
 ![Image 1](project1.PNG)"
+#### Dividing Further into the Dataset
 
 ### Our Approach
 
