@@ -153,14 +153,14 @@ One important assumption that was made during this project was that increase in 
 
 ### Contributions
 
-Data Cleaning and Collection: Chase Yarbrough, Jinyoung Eum, and Ved Mohan
-Pearson Coefficient: Ved Mohan
-Multiple Regression: Jinyoung Eum, Ved Mohan
-Ridge Regression: Ved Mohan
-GMM: Jinyoung Eum
-Video Presentation: Chase Yarbrough
-Website: Jinyoung Eum, Ved Mohan
-Website text: Chase Yarbrough, Ved Mohan 
+* Data Cleaning and Collection: Chase Yarbrough, Jinyoung Eum, and Ved Mohan
+* Pearson Coefficient: Ved Mohan
+* Multiple Regression: Jinyoung Eum, Ved Mohan
+* Ridge Regression: Ved Mohan
+* GMM: Jinyoung Eum
+* Video Presentation: Chase Yarbrough
+* Website: Jinyoung Eum, Ved Mohan
+* Website text: Chase Yarbrough, Ved Mohan 
 
 This project was a team effort and all members believe each contributed equally to the finished product.
 
