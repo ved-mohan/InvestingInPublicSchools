@@ -98,10 +98,10 @@ These factors represent the two strongest correlations in the positive and negat
 Ridge Regression was performed at two alpha levels, where a higher α value typically corresponds to more restriction on the coefficients and a low α corresponds to more generalization.
 
 Model Performance:
-* Ridge Regression Train Score w/ low alpha: .46036
-* Ridge Regression Test Score w/ high alpha: .11272
-* Ridge Regression Train Score w/ low alpha: .02249
-* Ridge Regression Test Score w/ lhigh alpha: .01770
+* Ridge Regression Train Score with low alpha: .46036
+* Ridge Regression Test Score with high alpha: .11272
+* Ridge Regression Train Score with low alpha: .02249
+* Ridge Regression Test Score with high alpha: .01770
 
 
 ![Image 7](project7.PNG)
@@ -116,12 +116,13 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 #### Unsupervised
 **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
 
-
 ![Image IS](IS.png)
 ![Image PP&E](PP&E.png)
 ![Image PPIS](PPIS.png)
 ![Image PPSS](PPSS.png)
 
+In these first two images, we see a clear clustering to the right of large income/spending states. These states, such as Texas California and New York, are not necessarrily wildly different in average score performance, but form a cluster of their own simply from sheer size which inflates their total spending. 
 
+On the other hand, these per pupil metrics do not trend towards groups that are solely "small state versus large state" clusters. You can see that both of these graphs have clusters that seem to take Overall Average score into account.
 
 ### Conclusion
