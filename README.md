@@ -118,13 +118,20 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
 
 ![Image IS](IS.png)
+
+Texas, California, and New York are grouped apart from the rest of the states.
+
 ![Image PP&E](PP&E.png)
+
+Once again, ithis model, Texas, California, and New York are grouped apart from the rest of the states.
+
 ![Image PPIS](PPIS.png)
+
+Texas & California are grouped apart
+
 ![Image PPSS](PPSS.png)
 
-In these first two images, we see a clear clustering to the right of large income/spending states. These states, such as Texas California and New York, are not necessarrily wildly different in average score performance, but form a cluster of their own simply from sheer size which inflates their total spending. 
-
-On the other hand, these per pupil metrics do not trend towards groups that are solely "small state versus large state" clusters. You can see that both of these graphs have clusters that seem to take Overall Average score into account.
+This model returned an even split across all states. Per Pupil Support Spending do not trend towards groups that are solely "small state versus large state" clusters. This further breaks from the pattern of the past three models as High and Low Overall Test Scores are evenly distrbuted across both groupings.
 
 ### Conclusion
 We began with a simple Pearson Correlation Test to check for evidence of individual correlations between areas of investment and effect on Overall Average NAEP score. This was followed by a supervised Multiple Regression model, supplemented by Ridge Regression to find the 4 most influential factors across 50 states. After identifying these factors, GMM was applied to find meaningful clusters of states.
