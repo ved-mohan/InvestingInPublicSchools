@@ -69,7 +69,7 @@ Highest correlation is Per Pupil Instructional Spending at 0.38. This seems reas
 
 #### Supervised
 
-In order to build on the preliminary exploration, a **Multiple Regression model** was created. Test and training data were split 20:80 respectively. 
+In order to build on the preliminary exploration, a **Multiple Regression** model was created. Test and training data were split 20:80 respectively. 
 
 Model Performance:
 
@@ -87,10 +87,10 @@ A summary of the coefficients returned:
 
 It is apparent that when all areas of investment are considered together the following were most influential:
 
-* Per Pupil Instructional Spending **(+0.364695)**
-* PP&E **(+0.194763)**
-* Instructional Spending **(-0.411845)**
-* Per Pupil Support System Spending **(-0.226041)**
+* **Per Pupil Instructional Spending** (+0.364695)
+* **PP&E** (+0.194763)
+* **Instructional Spending** (-0.411845)
+* **Per Pupil Support System Spending** (-0.226041)
 
 These factors represent the two strongest correlations in the positive and negative directions. 
 **Ridge regression** shrinks the coefficients, reducing the model complexity and multi-collinearity. This allows us to cross check influential factors with Multiple Regression
@@ -126,3 +126,12 @@ In these first two images, we see a clear clustering to the right of large incom
 On the other hand, these per pupil metrics do not trend towards groups that are solely "small state versus large state" clusters. You can see that both of these graphs have clusters that seem to take Overall Average score into account.
 
 ### Conclusion
+We began with a simple Pearson Correlation Test to check for evidence of individual correlations between areas of investment and effect on Overall Average NAEP score. This was followed by a supervised Multiple Regression model, supplemented by Ridge Regression to find the 4 most influential factors across 50 states. After identifying these factors, GMM was applied to find meaningful clusters of states.
+
+
+##### “No one size fits all”
+It was evident that states with high population and that had high revenues were consistently grouped among themselves. This led us to the conclusion that further state specific analyses would be required. For example, the same change instructional spending can affect teachers in a large state such as California and Rhode Island quite differently. 
+
+#### Weaknesses
+One important assumption that was made during this project- that increase in performance follows investment and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
+
