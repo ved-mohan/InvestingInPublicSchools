@@ -113,6 +113,9 @@ Since these four variables seem extremely impacted over multiple iterations, the
 
 Before unsupervised clustering techniques were applied to explore patterns between the states, simple graph clusters were made to gain some understanding of what to expect.
 
+![Image 7](SimpleClusters.png)
+
+Visualizing the Multiple Regressions highest positive performing coefficients (Instructional Staff and PP&E). It is evident that there is no strong relation between higher spending in both areas and test score performance. Interestingly there is a linear relationship between both coefficients.
 
 #### Unsupervised
 **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
@@ -145,3 +148,5 @@ Therefore, there can be no definitive conclusion of the form: "*an increase in P
 #### Weaknesses
 One important assumption that was made during this project was that increase in performance follows investment in education and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
 
+### Related
+[Link to code](InvestinginPublicSchools.ipynb)
