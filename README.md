@@ -149,8 +149,9 @@ Therefore, there can be no definitive conclusion of the form: "*an increase in P
 One important assumption that was made during this project was that increase in performance follows investment in education and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
 
 ### Related
-[Link to code](InvestinginPublicSchools.ipynb)
-[Link to video](https://youtu.be/8y3RL1CPSaU)
+[Link to Code(Jupyter Notebook)](InvestinginPublicSchools.ipynb)
+
+[Link to Video(YouTube)](https://youtu.be/8y3RL1CPSaU)
 
 ### Contributions
 
