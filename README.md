@@ -150,10 +150,11 @@ One important assumption that was made during this project was that increase in 
 
 ### Related
 [Link to code](InvestinginPublicSchools.ipynb)
+[Link to video](https://youtu.be/8y3RL1CPSaU)
 
 ### Contributions
 
-* Data Cleaning and Collection: Chase Yarbrough, Jinyoung Eum, and Ved Mohan
+* Data Cleaning and Collection: Chase Yarbrough, Jinyoung Eum
 * Pearson Coefficient: Ved Mohan
 * Multiple Regression: Jinyoung Eum, Ved Mohan
 * Ridge Regression: Ved Mohan
