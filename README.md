@@ -87,10 +87,10 @@ A summary of the coefficients returned:
 
 It is apparent that when all areas of investment are considered together the following were most influential:
 
-* Per Pupil Instructional Spending **(+0.364695)
-* PP&E **(+0.194763)
-* Instructional Spending **(-0.411845)
-* Per Pupil Support System Spending **(-0.226041)
+* Per Pupil Instructional Spending **(+0.364695)**
+* PP&E **(+0.194763)**
+* Instructional Spending **(-0.411845)**
+* Per Pupil Support System Spending **(-0.226041)**
 
 These factors represent the two strongest correlations in the positive and negative directions. 
 **Ridge regression** shrinks the coefficients, reducing the model complexity and multi-collinearity. This allows us to cross check influential factors with Multiple Regression
