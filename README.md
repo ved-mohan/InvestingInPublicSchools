@@ -118,7 +118,7 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 Visualizing the Multiple Regressions highest positive performing coefficients (Instructional Staff and PP&E). It is evident that there is no strong relation between higher spending in both areas and test score performance. Interestingly there is a linear relationship between both coefficients.
 
 #### Unsupervised
-**Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
+Due to lack of insight from simple graph clustering, **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
 
 ![Image IS](IS.png)
 
@@ -150,3 +150,19 @@ One important assumption that was made during this project was that increase in 
 
 ### Related
 [Link to code](InvestinginPublicSchools.ipynb)
+
+### Contributions
+
+Data Cleaning and Collection: Chase Yarbrough, Jinyoung Eum, and Ved Mohan
+Pearson Coefficient: Ved Mohan
+Multiple Regression: Jinyoung Eum, Ved Mohan
+Ridge Regression: Ved Mohan
+GMM: Jinyoung Eum
+Video Presentation: Chase Yarbrough
+Website: Jinyoung Eum, Ved Mohan
+Website text: Chase Yarbrough, Ved Mohan 
+
+This project was a team effort and all members believe each contributed equally to the finished product.
+
+---
+last updated 4/26/2020
