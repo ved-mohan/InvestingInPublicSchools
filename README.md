@@ -23,6 +23,7 @@ Some characteristics of this data:
 3. For 8th graders the average math test score is 282 and the average reading test score is 265.
 4. For 4th graders the average math test score is 240 and the average reading test score is 221.
 
+4th Grade and 8th Grade Math and Reading Data were combined to create an *Overall Average Test Score* Column.
 
 [Dataset source](https://nces.ed.gov/nationsreportcard/)
 
@@ -98,10 +99,10 @@ These factors represent the two strongest correlations in the positive and negat
 Ridge Regression was performed at two alpha levels, where a higher α value typically corresponds to more restriction on the coefficients and a low α corresponds to more generalization.
 
 Model Performance:
-* Ridge Regression Train Score with low alpha: .46036
-* Ridge Regression Test Score with high alpha: .11272
-* Ridge Regression Train Score with low alpha: .02249
-* Ridge Regression Test Score with high alpha: .01770
+* Ridge Regression Train Score with low alpha: 0.46036
+* Ridge Regression Test Score with high alpha: 0.11272
+* Ridge Regression Train Score with low alpha: 0.02249
+* Ridge Regression Test Score with high alpha: 0.01770
 
 
 ![Image 7](project7.PNG)
@@ -132,6 +133,8 @@ We began with a simple Pearson Correlation Test to check for evidence of individ
 ##### “No one size fits all”
 It was evident that states with high population and that had high revenues were consistently grouped among themselves. This led us to the conclusion that further state specific analyses would be required. For example, the same change instructional spending can affect teachers in a large state such as California and Rhode Island quite differently. 
 
+Therefore, there can be no definitive conclusion of the form an increase in Per Pupil Instructional Spending will increase Overall Test Average by 0.364695.
+
 #### Weaknesses
-One important assumption that was made during this project- that increase in performance follows investment and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
+One important assumption that was made during this project was that increase in performance follows investment in education and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
 
