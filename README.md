@@ -119,15 +119,15 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 
 ![Image IS](IS.png)
 
-Texas, California, and New York are grouped apart from the rest of the states.
+Texas & California are grouped apart
 
 ![Image PP&E](PP&E.png)
 
-Once again, ithis model, Texas, California, and New York are grouped apart from the rest of the states.
+Texas, California, and New York are grouped apart from the rest of the states.
 
 ![Image PPIS](PPIS.png)
 
-Texas & California are grouped apart
+Once again, in this model, Texas, California, and New York are grouped apart from the rest of the states.
 
 ![Image PPSS](PPSS.png)
 
