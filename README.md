@@ -119,15 +119,15 @@ Before unsupervised clustering techniques were applied to explore patterns betwe
 
 ![Image IS](IS.png)
 
-Texas & California are grouped apart
+Texas & California are grouped apart. (Grey)
 
 ![Image PP&E](PP&E.png)
 
-Texas, California, and New York are grouped apart from the rest of the states.
+Texas, California, and New York are grouped apart from the rest of the states. (Orange)
 
 ![Image PPIS](PPIS.png)
 
-Once again, in this model, Texas, California, and New York are grouped apart from the rest of the states.
+Once again, in this model, Texas, California, and New York are grouped apart from the rest of the states. (Grey)
 
 ![Image PPSS](PPSS.png)
 
@@ -140,7 +140,7 @@ We began with a simple Pearson Correlation Test to check for evidence of individ
 ##### “No one size fits all”
 It was evident that states with high population and that had high revenues were consistently grouped among themselves. This led us to the conclusion that further state specific analyses would be required. For example, the same change instructional spending can affect teachers in a large state such as California and Rhode Island quite differently. 
 
-Therefore, there can be no definitive conclusion of the form an increase in Per Pupil Instructional Spending will increase Overall Test Average by 0.364695.
+Therefore, there can be no definitive conclusion of the form: "*an increase in Per Pupil Instructional Spending will increase Overall Test Average by 0.364695.*"
 
 #### Weaknesses
 One important assumption that was made during this project was that increase in performance follows investment in education and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
