@@ -14,7 +14,7 @@ Our goal was to create a tool which demonstrates which areas to target spending 
 ### Data
 Two different sources of data were used, testing data and financial data
 
-##### Test Data
+#### Test Data
 Test score data from  National Assessment of Educational Progress (NAEP testing). NAEP has been selected as it is a standardized test administered at two grade levels, 4th grade and 8th grade. There are two different scores, measuring Math and English performance.
 
 Some characteristics of this data:
@@ -28,7 +28,7 @@ Some characteristics of this data:
 [Dataset source](https://nces.ed.gov/nationsreportcard/)
 
 
-##### Financial Data
+#### Financial Data
 Financial data was sourced from the United States Census. Data between 2008 and 2017 tracked individual areas of investment on a state by state basis. The categories were as follows:
 
 * Salaries and Wages
@@ -111,11 +111,11 @@ We see that for coefficient indices Per Pupil Instructional Spending, Instructio
 
 Since these four variables seem extremely impacted over multiple iterations, they were carried forward for further analysis. 
 
-Before unsupervised clustering techniques were applied to explore patterns between the states, simple graph clusters were made to gain some understanding of what to expect.
+Before unsupervised clustering techniques were applied to explore patterns between the states, a simple graph plot with clusters by Overall Test Score were made to gain some understanding of what to expect.
 
 ![Image 7](SimpleClusters.png)
 
-Visualizing the Multiple Regressions highest positive performing coefficients (Instructional Staff and PP&E). It is evident that there is no strong relation between higher spending in both areas and test score performance. Interestingly there is a linear relationship between both coefficients.
+Visualizing the Multiple Regressions highest positive performing coefficients (Instructional Staff and PP&E). It is evident that there is no strong relation between higher spending in both areas and test score performance. Interestingly, there is a linear relationship between both coefficients.
 
 #### Unsupervised
 Due to lack of insight from simple graph clustering, **Gaussian Mixture Models** (GMM) were created on each of the four coefficients.
@@ -149,9 +149,9 @@ Therefore, there can be no definitive conclusion of the form: "*an increase in P
 One important assumption that was made during this project was that increase in performance follows investment in education and not the other way around. In reality this is a simplfying assumption ignoring the fact that there will be a give and take between the two factors.
 
 ### Related
-[Link to Code(Jupyter Notebook)](InvestinginPublicSchools.ipynb)
+[Link to Code (Jupyter Notebook)](InvestinginPublicSchools.ipynb)
 
-[Link to Video(YouTube)](https://youtu.be/8y3RL1CPSaU)
+[Link to Video (YouTube)](https://youtu.be/8y3RL1CPSaU)
 
 ### Contributions
 
